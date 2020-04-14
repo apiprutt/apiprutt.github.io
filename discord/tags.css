@@ -73,6 +73,8 @@
   content: 'GOD';
   --main-color: #21a37a;
   background-image: url(https://cdn.lowgif.com/full/c26716e3c99af76d-other-gif-id-12323-gif-abyss.gif);
+  bottom: 0px;
+  top: 0px;
 }
 
 [user_by_bdfdb*="327358226511167488"],
