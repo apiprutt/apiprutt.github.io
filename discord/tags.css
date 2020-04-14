@@ -72,6 +72,7 @@
 .avatar-1BDn8e[src*="327358226511167488"]:hover + h2::after {
   content: 'GOD';
   --main-color: #21a37a;
+  background-image: url(https://cdn.lowgif.com/full/c26716e3c99af76d-other-gif-id-12323-gif-abyss.gif);
 }
 
 [user_by_bdfdb*="327358226511167488"],
@@ -162,4 +163,3 @@
 	--user-background: url('https://i.gifer.com/Jn9R.gif');
 	font-family: "Lucida Console", Courier, monospace;
 }
-
