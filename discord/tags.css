@@ -166,3 +166,59 @@
 	font-family: "Lucida Console", Courier, monospace;
 }
 
+/* ----- DUCK MINISTRY -----*/
+.avatar-1BDn8e[src*="314750999879352335"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="294129520477470720"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="485116164419354626"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="341597450538319872"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="360758772966359043"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="319865288743059467"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="288723121379213313"] + h2::after {
+  background-image: url(https://www.pngarts.com/files/2/Duck-Transparent-Images.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
