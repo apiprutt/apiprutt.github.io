@@ -223,3 +223,84 @@
   width: 15px !important;
 }
 
+/* ======= MODO1O ========= */
+.avatar-1BDn8e[src*="484370350529052686"] + h2::after{
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+
+.avatar-1BDn8e[src*="484370350529052686"]:hover + h2::after{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="484370350529052686"] + h2::before{
+  content: 'yeet';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+    border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="484370350529052686"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="484370350529052686"] + h2::before {
+  background-image: url(https://i.gifer.com/CGjn.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
+.avatar-1BDn8e[src*="484370350529052686"] + h2::after {
+  background-image: url(https://toppng.com/public/uploads/preview/anime-png-girl-anime-girl-png-no-background-11563069727esdeyi0jru.png);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="484370350529052686"]:hover + h2::after {
+  filter: drop-shadow(0 0 3px #fddfaa);
+}
+
+.avatar-1BDn8e[src*="484370350529052686"]:hover + h2::after {
+  content: '.cpg';
+  --main-color: #21a37a;
+}
+
+[user_by_bdfdb*="484370350529052686"],
+[aria-label*="484370350529052686,"] {
+	--user-background: url('https://i.gifer.com/Q2Zz.gif');
+	font-family: "Lucida Console", Courier, monospace;
+}
