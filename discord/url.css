@@ -1,0 +1,39 @@
+@import "https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css";
+/* SHOW URLS */
+
+.chat-3bRxxu .messagesWrapper-3lZDfY {
+  z-index: unset;
+}
+
+.messages-3amgkR a:after,
+.topic-2QX7LI a:after
+{
+  content: attr(href);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: gray;
+  color: black;
+  font-size: 13.5px;
+  line-height: 16.5px;
+  font-weight: 500;
+  padding: 1px 3px 2px 3px;
+  max-width: calc(100% - 240px);
+  transition: opacity .44s linear;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 42;
+}
+
+.messages-3amgkR a:hover:after,
+.topic-2QX7LI a:hover:after
+{
+  opacity: 1;
+  animation: fade .44s 10s forwards;
+}
+
+@keyframes fade {
+  to{ opacity: 0; }
+}
+
+/* not being restrictive on which <a/> tags are to be handled breaks scrollbars */
